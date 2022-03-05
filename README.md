@@ -23,9 +23,34 @@ Rscript Script1.r -CSV_file Data_example.csv
 | -group_label    |   a column name in the CSV file to group the data  | Pipeline |
 | -font_size    |   x and y axis labels fonts size  | 14 |
 
-<a href="/Scripts/Script1/Script1.r" download="Script1.r"> - Download the script </a>
+<a href="/Scripts/Script1/Script1.r" > - Download the script </a>
 
-<a href="/Scripts/Script1/Data_example.csv" download="Script1.r"> - Download the data example </a>
+<a href="/Scripts/Script1/Data_example.csv" > - Download the data example </a>
+
+## Script 2 (histogram plot)
+<p align="center">
+<img src="Scripts/Script2/Plot_example.png" alt="drawing" width="400"/>
+</p>
+
+- Command line
+```
+Rscript Script2.r -CSV_file Data_example.csv
+```
+- Command line keywords
+
+
+  
+| keyword | Description | Default value |
+| ------ | ----------- |-----------  |
+| -CSV_file   | Path to CSV file. | Data_example.csv |
+| -Plot_name | Created plot name | Plot.png |
+| -x_label    |  a column name in the CSV file to use a x axis  | Resolution  |
+| -font_size    |   x and y axis labels fonts size  | 14 |
+
+<a href="/Scripts/Script2/Script2.r" > - Download the script </a>
+
+<a href="/Scripts/Script2/Data_example.csv" > - Download the data example </a>
+
 ## Citing
 ```
 @software{A_bunch_of_R_scripts,
