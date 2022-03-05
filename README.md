@@ -24,6 +24,7 @@ Rscript Script1.r -CSV_file Data_example.csv
 | -font_size    |   x and y axis labels fonts size  | 14 |
 
 ## Citing
+```
 @software{A_bunch_of_R_scripts,
   author = {Alharbi,Emad},
   doi = {},
@@ -32,3 +33,4 @@ Rscript Script1.r -CSV_file Data_example.csv
   url = {https://github.com/E-Alharbi/rscript-bunch},
   year = {2022}
 }
+```
