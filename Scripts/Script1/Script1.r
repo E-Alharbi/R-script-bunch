@@ -18,7 +18,7 @@ setClass("keyword", slots=list(name="character",type="character", in_out="charac
 #Args set to default
 keywords <- hash()
 keywords[["CSV_file"]] <- new("keyword",name="CSV_file",type="file", in_out="in", value="./Data_example.csv")
-keywords[["Plot_name"]] <- new("keyword",name="Plot_name",type="file", in_out="out", value="Plot_name.png")
+keywords[["Plot_name"]] <- new("keyword",name="Plot_name",type="file", in_out="out", value="Plot.png")
 keywords[["x_label"]] <- new("keyword",name="x_label",type="col", in_out="in", value="Resolution")
 keywords[["y_label"]] <- new("keyword",name="y_label",type="col", in_out="in", value="Completness")
 keywords[["group_label"]] <- new("keyword",name="y_label",type="col", in_out="in", value="Pipeline")
