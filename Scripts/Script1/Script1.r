@@ -1,4 +1,9 @@
 #!/usr/bin/env Rscript
+
+############################################
+#         Download utilities.r             #
+############################################
+
 utilities_file="utilities.r"
 if(!file.exists(utilities_file)){
     print (paste0(utilities_file," not found. We will download from rscript-bunch repository.
@@ -6,16 +11,22 @@ if(!file.exists(utilities_file)){
 download.file("https://raw.githubusercontent.com/E-Alharbi/rscript-bunch/main/utilities.r", utilities_file,method='curl')
 
 }
+
+############################################
+#  Load libraies and set up env options    #
+############################################
+
 source(utilities_file)
 set_up_env_options.function()
 
 library_list <- list("hash","ggplot2")
 load_library_list.function(library_list)
 
+############################################
+#             Keywords                     #
+############################################
 
 setClass("keyword", slots=list(name="character",type="character", in_out="character", value="character"))
-
-#Args set to default
 keywords <- hash()
 keywords[["CSV_file"]] <- new("keyword",name="CSV_file",type="file", in_out="in", value="./Data_example.csv")
 keywords[["Plot_name"]] <- new("keyword",name="Plot_name",type="file", in_out="out", value="Plot.png")
@@ -23,33 +34,28 @@ keywords[["x_label"]] <- new("keyword",name="x_label",type="col", in_out="in", v
 keywords[["y_label"]] <- new("keyword",name="y_label",type="col", in_out="in", value="Completness")
 keywords[["group_label"]] <- new("keyword",name="y_label",type="col", in_out="in", value="Pipeline")
 keywords[["font_size"]] <- new("keyword",name="font_size",type="size", in_out="in", value="14")
-
 set_up_keyword_values.function(keywords,args)
 
 
+############################################
+#             Prepare data                 #
+############################################
 
 MyData <- read.csv(file=keywords[["CSV_file"]]@value, header=TRUE, sep=",")
-
 group <-toString(check_col.function(keywords[["group_label"]]@value,MyData))
 x <-toString(check_col.function(keywords[["x_label"]]@value,MyData))
 y <-toString(check_col.function(keywords[["y_label"]]@value,MyData))
-
-
 col<- c(group,x)
-
-
-grouped <- setNames(aggregate(MyData[y], by=MyData[col], mean),
-                       c("group_label","x_label","y_label" ))
-
+grouped <- setNames(aggregate(MyData[y], by=MyData[col], mean),c("group_label","x_label","y_label" ))
 grouped$x_label <- gsub('\t', '\n', grouped$x_label)
-
 y_min<- min(as.numeric(grouped$y_label))
 y_max<- max(as.numeric(grouped$y_label))
-
-
 shapes <- set_shape.function(unique(grouped$group_label))
 colors <- set_color.function(unique(grouped$group_label))
 
+############################################
+#             Create plot                  #
+############################################
 
 png(keywords[["Plot_name"]]@value, units="in", width=7, height=5, res=1000)
 
