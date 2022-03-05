@@ -23,6 +23,8 @@ Rscript Script1.r -CSV_file Data_example.csv
 | -group_label    |   a column name in the CSV file to group the data  | Pipeline |
 | -font_size    |   x and y axis labels fonts size  | 14 |
 
+<a href="/Scripts/Script1/Script1.r" download="Script1.r"> - Download the script </a>
+<a href="/Scripts/Script1/Data_example.csv" download="Script1.r"> - Download the data example </a>
 ## Citing
 ```
 @software{A_bunch_of_R_scripts,
