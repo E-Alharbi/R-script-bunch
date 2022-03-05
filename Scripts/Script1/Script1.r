@@ -32,7 +32,7 @@ keywords[["CSV_file"]] <- new("keyword",name="CSV_file",type="file", in_out="in"
 keywords[["Plot_name"]] <- new("keyword",name="Plot_name",type="file", in_out="out", value="Plot.png")
 keywords[["x_label"]] <- new("keyword",name="x_label",type="col", in_out="in", value="Resolution")
 keywords[["y_label"]] <- new("keyword",name="y_label",type="col", in_out="in", value="Completness")
-keywords[["group_label"]] <- new("keyword",name="y_label",type="col", in_out="in", value="Pipeline")
+keywords[["group_label"]] <- new("keyword",name="group_label",type="col", in_out="in", value="Pipeline")
 keywords[["font_size"]] <- new("keyword",name="font_size",type="size", in_out="in", value="14")
 set_up_keyword_values.function(keywords,args)
 
