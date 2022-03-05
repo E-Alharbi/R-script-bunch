@@ -22,4 +22,13 @@ Rscript Script1.r -CSV_file Data_example.csv
 | -y_label    |  a column name in the CSV file to use a y axis | Completness |
 | -group_label    |   a column name in the CSV file to group the data  | Pipeline |
 | -font_size    |   x and y axis labels fonts size  | 14 |
-  
+
+## Citing
+@software{A_bunch_of_R_scripts,
+  author = {Alharbi,Emad},
+  doi = {},
+  month = {03},
+  title = {{A bunch of R scripts}},
+  url = {https://github.com/E-Alharbi/rscript-bunch},
+  year = {2022}
+}
