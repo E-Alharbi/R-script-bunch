@@ -18,8 +18,8 @@ Rscript Script1.r -CSV_file Data_example.csv
 | ------ | ----------- |-----------  |
 | -CSV_file   | Path to CSV file. | Data_example.csv |
 | -Plot_name | Created plot name | Plot.png |
-| -x_label    |  a column name in the CSV file to use a x axis  | Resolution  |
-| -y_label    |  a column name in the CSV file to use a y axis | Completness |
+| -x_label    |  a column name in the CSV file to use for x axis  | Resolution  |
+| -y_label    |  a column name in the CSV file to use for y axis | Completness |
 | -group_label    |   a column name in the CSV file to group the data  | Pipeline |
 | -font_size    |   x and y axis labels fonts size  | 14 |
 
@@ -44,7 +44,7 @@ Rscript Script2.r -CSV_file Data_example.csv
 | ------ | ----------- |-----------  |
 | -CSV_file   | Path to CSV file. | Data_example.csv |
 | -Plot_name | Created plot name | Plot.png |
-| -x_label    |  a column name in the CSV file to use a x axis  | Resolution  |
+| -x_label    |  a column name in the CSV file to use for x axis  | Resolution  |
 | -font_size    |   x and y axis labels fonts size  | 14 |
 
 <a href="/Scripts/Script2/Script2.r" > - Download the script </a>
