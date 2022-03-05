@@ -61,6 +61,9 @@ set_up_keyword_values.function <- function(keywords, args) {
                     stop(paste0(" please set a value for this keyword ",k))
                 }
             }
+            else{
+                stop(paste0(k," unknown keyword!"))
+            }
         }
         i<-i +1
         
