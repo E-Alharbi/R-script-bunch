@@ -72,7 +72,7 @@ Rscript Script3.r -CSV_file Data_example.csv
 | -x_label    |  a column name in the CSV file to use for x axis  | CompareTo  |
 | -y_label    |  a column name in the CSV file to use for y axis | Percentage |
 | -group_label    |   a column name in the CSV file to group the data  | Pipeline |
-| -font_size    |   x axis labels fonts size  | 14 |
+| -font_size    |   y axis labels fonts size  | 14 |
 
 <a href="/Scripts/Script3/Script3.r" > - Download the script </a>
 
