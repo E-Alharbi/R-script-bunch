@@ -14,7 +14,7 @@ Rscript Script1.r -CSV_file Data_example.csv
 
 
   
-| keyword | Description | Default value |
+| Keyword | Description | Default value |
 | ------ | ----------- |-----------  |
 | -CSV_file   | Path to CSV file. | Data_example.csv |
 | -Plot_name | Created plot name | Plot.png |
@@ -40,7 +40,7 @@ Rscript Script2.r -CSV_file Data_example.csv
 
 
   
-| keyword | Description | Default value |
+| Keyword | Description | Default value |
 | ------ | ----------- |-----------  |
 | -CSV_file   | Path to CSV file. | Data_example.csv |
 | -Plot_name | Created plot name | Plot.png |
@@ -65,7 +65,7 @@ Rscript Script3.r -CSV_file Data_example.csv
 
 
   
-| keyword | Description | Default value |
+| Keyword | Description | Default value |
 | ------ | ----------- |-----------  |
 | -CSV_file   | Path to CSV file. | Data_example.csv |
 | -Plot_name | Created plot name | Plot.png |
@@ -92,7 +92,7 @@ Rscript Script4.r -CSV_file Data_example.csv
 
 
   
-| keyword | Description | Default value |
+| Keyword | Description | Default value |
 | ------ | ----------- |-----------  |
 | -CSV_file   | Path to CSV file. | Data_example.csv |
 | -Plot_name | Created plot name | Plot.png |
