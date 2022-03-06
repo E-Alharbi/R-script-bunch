@@ -101,7 +101,7 @@ Rscript Script4.r -CSV_file Data_example.csv
 | -group_label    |   a column name in the CSV file to group the data  | Pipeline |
 | -font_size    |   x and y axis labels fonts size  | 14 |
 
-To hide a line in the inset plot, set the alpha value for the corresponding line to zero in plot (g2) in the script. 
+To hide a line in the inset plot, set the alpha value for the corresponding line to zero in the plot (g2) in the script. 
 ```
 scale_alpha_manual(values = c(0, 0, 0, 0,1, 1, 0, 0,1, 0, 1, 1,0))
 ```
