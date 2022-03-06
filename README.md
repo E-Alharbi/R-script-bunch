@@ -51,6 +51,33 @@ Rscript Script2.r -CSV_file Data_example.csv
 
 <a href="/Scripts/Script2/Data_example.csv" > - Download the data example </a>
 
+
+## Script 3 (bar plots grid)
+<p align="center">
+<img src="Scripts/Script3/Plot_example.png" alt="drawing" width="400"/>
+</p>
+
+- Command line
+```
+Rscript Script3.r -CSV_file Data_example.csv
+```
+- Command line keywords
+
+
+  
+| keyword | Description | Default value |
+| ------ | ----------- |-----------  |
+| -CSV_file   | Path to CSV file. | Data_example.csv |
+| -Plot_name | Created plot name | Plot.png |
+| -x_label    |  a column name in the CSV file to use for x axis  | CompareTo  |
+| -y_label    |  a column name in the CSV file to use for y axis | Percentage |
+| -group_label    |   a column name in the CSV file to group the data  | Pipeline |
+| -font_size    |   x axis labels fonts size  | 14 |
+
+<a href="/Scripts/Script3/Script3.r" > - Download the script </a>
+
+<a href="/Scripts/Script3/Data_example.csv" > - Download the data example </a>
+
 ## Citing
 ```
 @software{A_bunch_of_R_scripts,
