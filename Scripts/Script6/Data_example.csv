@@ -1,0 +1,221 @@
+Pipeline,Structure_evaluation,Error_matrix,Difference_from_base_model,Feature,Dataset
+SHELXE,Completeness,RMSE,-0.001435815,Min,Experimental phasing (JCSG)
+SHELXE,Completeness,MAE,-0.000698183,Min,Experimental phasing (JCSG)
+SHELXE,Completeness,RMSE,0.001084553,Max,Experimental phasing (JCSG)
+SHELXE,Completeness,MAE,0.002300545,Max,Experimental phasing (JCSG)
+SHELXE,Completeness,RMSE,-0.001152276,RMSD,Experimental phasing (JCSG)
+SHELXE,Completeness,MAE,-0.0009084,RMSD,Experimental phasing (JCSG)
+SHELXE,Completeness,RMSE,0.002272099,Skew,Experimental phasing (JCSG)
+SHELXE,Completeness,MAE,0.00102941,Skew,Experimental phasing (JCSG)
+SHELXE,Completeness,RMSE,0.017968315,Resolution,Experimental phasing (JCSG)
+SHELXE,Completeness,MAE,0.013104673,Resolution,Experimental phasing (JCSG)
+SHELXE,R-work,RMSE,3.50E-05,Min,Experimental phasing (JCSG)
+SHELXE,R-work,MAE,5.82E-05,Min,Experimental phasing (JCSG)
+SHELXE,R-work,RMSE,2.78E-05,Max,Experimental phasing (JCSG)
+SHELXE,R-work,MAE,5.76E-06,Max,Experimental phasing (JCSG)
+SHELXE,R-work,RMSE,-0.000167255,RMSD,Experimental phasing (JCSG)
+SHELXE,R-work,MAE,-8.73E-06,RMSD,Experimental phasing (JCSG)
+SHELXE,R-work,RMSE,0.000179889,Skew,Experimental phasing (JCSG)
+SHELXE,R-work,MAE,0.000133625,Skew,Experimental phasing (JCSG)
+SHELXE,R-work,RMSE,0.002335004,Resolution,Experimental phasing (JCSG)
+SHELXE,R-work,MAE,0.001782439,Resolution,Experimental phasing (JCSG)
+Phenix AutoBuild,Completeness,RMSE,0.00137206,Min,Experimental phasing (JCSG)
+Phenix AutoBuild,Completeness,MAE,0.001122338,Min,Experimental phasing (JCSG)
+Phenix AutoBuild,Completeness,RMSE,0.000456698,Max,Experimental phasing (JCSG)
+Phenix AutoBuild,Completeness,MAE,0.000223576,Max,Experimental phasing (JCSG)
+Phenix AutoBuild,Completeness,RMSE,0.000582041,RMSD,Experimental phasing (JCSG)
+Phenix AutoBuild,Completeness,MAE,0.000639254,RMSD,Experimental phasing (JCSG)
+Phenix AutoBuild,Completeness,RMSE,0.002276692,Skew,Experimental phasing (JCSG)
+Phenix AutoBuild,Completeness,MAE,0.001834546,Skew,Experimental phasing (JCSG)
+Phenix AutoBuild,Completeness,RMSE,0.030898424,Resolution,Experimental phasing (JCSG)
+Phenix AutoBuild,Completeness,MAE,0.023464873,Resolution,Experimental phasing (JCSG)
+Phenix AutoBuild,R-work,RMSE,0.000227053,Min,Experimental phasing (JCSG)
+Phenix AutoBuild,R-work,MAE,0.000193485,Min,Experimental phasing (JCSG)
+Phenix AutoBuild,R-work,RMSE,0.000226913,Max,Experimental phasing (JCSG)
+Phenix AutoBuild,R-work,MAE,0.000154057,Max,Experimental phasing (JCSG)
+Phenix AutoBuild,R-work,RMSE,2.09E-05,RMSD,Experimental phasing (JCSG)
+Phenix AutoBuild,R-work,MAE,3.35E-05,RMSD,Experimental phasing (JCSG)
+Phenix AutoBuild,R-work,RMSE,0.000221018,Skew,Experimental phasing (JCSG)
+Phenix AutoBuild,R-work,MAE,2.14E-05,Skew,Experimental phasing (JCSG)
+Phenix AutoBuild,R-work,RMSE,0.003051645,Resolution,Experimental phasing (JCSG)
+Phenix AutoBuild,R-work,MAE,0.002141656,Resolution,Experimental phasing (JCSG)
+Phenix AutoBuild,R-free,RMSE,0.000520465,Min,Experimental phasing (JCSG)
+Phenix AutoBuild,R-free,MAE,0.000484248,Min,Experimental phasing (JCSG)
+Phenix AutoBuild,R-free,RMSE,0.00030369,Max,Experimental phasing (JCSG)
+Phenix AutoBuild,R-free,MAE,0.000336724,Max,Experimental phasing (JCSG)
+Phenix AutoBuild,R-free,RMSE,0.000261032,RMSD,Experimental phasing (JCSG)
+Phenix AutoBuild,R-free,MAE,0.000229556,RMSD,Experimental phasing (JCSG)
+Phenix AutoBuild,R-free,RMSE,0.000467429,Skew,Experimental phasing (JCSG)
+Phenix AutoBuild,R-free,MAE,0.00016299,Skew,Experimental phasing (JCSG)
+Phenix AutoBuild,R-free,RMSE,0.004565728,Resolution,Experimental phasing (JCSG)
+Phenix AutoBuild,R-free,MAE,0.003607264,Resolution,Experimental phasing (JCSG)
+Buccaneer,R-free,RMSE,0.000593923,Min,Experimental phasing (JCSG)
+Buccaneer,R-free,MAE,0.000502395,Min,Experimental phasing (JCSG)
+Buccaneer,R-free,RMSE,0.001102338,Max,Experimental phasing (JCSG)
+Buccaneer,R-free,MAE,0.00089316,Max,Experimental phasing (JCSG)
+Buccaneer,R-free,RMSE,0.000662454,RMSD,Experimental phasing (JCSG)
+Buccaneer,R-free,MAE,0.000720001,RMSD,Experimental phasing (JCSG)
+Buccaneer,R-free,RMSE,0.001339391,Skew,Experimental phasing (JCSG)
+Buccaneer,R-free,MAE,0.001121702,Skew,Experimental phasing (JCSG)
+Buccaneer,R-free,RMSE,0.00298645,Resolution,Experimental phasing (JCSG)
+Buccaneer,R-free,MAE,0.002592617,Resolution,Experimental phasing (JCSG)
+Buccaneer,R-work,RMSE,0.000591007,Min,Experimental phasing (JCSG)
+Buccaneer,R-work,MAE,0.000335615,Min,Experimental phasing (JCSG)
+Buccaneer,R-work,RMSE,0.001267034,Max,Experimental phasing (JCSG)
+Buccaneer,R-work,MAE,0.001090753,Max,Experimental phasing (JCSG)
+Buccaneer,R-work,RMSE,0.000435224,RMSD,Experimental phasing (JCSG)
+Buccaneer,R-work,MAE,0.000466191,RMSD,Experimental phasing (JCSG)
+Buccaneer,R-work,RMSE,0.001246871,Skew,Experimental phasing (JCSG)
+Buccaneer,R-work,MAE,0.001254559,Skew,Experimental phasing (JCSG)
+Buccaneer,R-work,RMSE,0.00197375,Resolution,Experimental phasing (JCSG)
+Buccaneer,R-work,MAE,0.001695145,Resolution,Experimental phasing (JCSG)
+Buccaneer,Completeness,RMSE,0.001251229,Min,Experimental phasing (JCSG)
+Buccaneer,Completeness,MAE,0.000869867,Min,Experimental phasing (JCSG)
+Buccaneer,Completeness,RMSE,0.004334339,Max,Experimental phasing (JCSG)
+Buccaneer,Completeness,MAE,0.003371716,Max,Experimental phasing (JCSG)
+Buccaneer,Completeness,RMSE,0.001610041,RMSD,Experimental phasing (JCSG)
+Buccaneer,Completeness,MAE,0.000957354,RMSD,Experimental phasing (JCSG)
+Buccaneer,Completeness,RMSE,0.007856347,Skew,Experimental phasing (JCSG)
+Buccaneer,Completeness,MAE,0.007601186,Skew,Experimental phasing (JCSG)
+Buccaneer,Completeness,RMSE,0.017170664,Resolution,Experimental phasing (JCSG)
+Buccaneer,Completeness,MAE,0.017266837,Resolution,Experimental phasing (JCSG)
+ARP/wARP,R-work,RMSE,0.00040518,Min,Experimental phasing (JCSG)
+ARP/wARP,R-work,MAE,0.000300257,Min,Experimental phasing (JCSG)
+ARP/wARP,R-work,RMSE,-5.35E-05,Max,Experimental phasing (JCSG)
+ARP/wARP,R-work,MAE,1.95E-05,Max,Experimental phasing (JCSG)
+ARP/wARP,R-work,RMSE,0.000163535,RMSD,Experimental phasing (JCSG)
+ARP/wARP,R-work,MAE,0.000188755,RMSD,Experimental phasing (JCSG)
+ARP/wARP,R-work,RMSE,0.000376819,Skew,Experimental phasing (JCSG)
+ARP/wARP,R-work,MAE,0.000230132,Skew,Experimental phasing (JCSG)
+ARP/wARP,R-work,RMSE,0.000283499,Resolution,Experimental phasing (JCSG)
+ARP/wARP,R-work,MAE,0.000271458,Resolution,Experimental phasing (JCSG)
+ARP/wARP,Completeness,RMSE,-0.000108306,Min,Experimental phasing (JCSG)
+ARP/wARP,Completeness,MAE,-0.000347204,Min,Experimental phasing (JCSG)
+ARP/wARP,Completeness,RMSE,0.001175587,Max,Experimental phasing (JCSG)
+ARP/wARP,Completeness,MAE,0.000142415,Max,Experimental phasing (JCSG)
+ARP/wARP,Completeness,RMSE,0.000640399,RMSD,Experimental phasing (JCSG)
+ARP/wARP,Completeness,MAE,0.000147793,RMSD,Experimental phasing (JCSG)
+ARP/wARP,Completeness,RMSE,0.00188963,Skew,Experimental phasing (JCSG)
+ARP/wARP,Completeness,MAE,0.000473308,Skew,Experimental phasing (JCSG)
+ARP/wARP,Completeness,RMSE,0.02708237,Resolution,Experimental phasing (JCSG)
+ARP/wARP,Completeness,MAE,0.019016104,Resolution,Experimental phasing (JCSG)
+SHELXE,Completeness,RMSE,0.001340022,Min,MR
+SHELXE,Completeness,MAE,0.000876711,Min,MR
+SHELXE,Completeness,RMSE,-3.93E-05,Max,MR
+SHELXE,Completeness,MAE,-0.000431351,Max,MR
+SHELXE,Completeness,RMSE,0.003458479,Sequence identity,MR
+SHELXE,Completeness,MAE,0.002850628,Sequence identity,MR
+SHELXE,Completeness,RMSE,0.001919201,RMSD,MR
+SHELXE,Completeness,MAE,0.000927609,RMSD,MR
+SHELXE,Completeness,RMSE,0.002187679,Skew,MR
+SHELXE,Completeness,MAE,0.001439353,Skew,MR
+SHELXE,Completeness,RMSE,0.008474678,Resolution,MR
+SHELXE,Completeness,MAE,0.008518481,Resolution,MR
+SHELXE,R-work,RMSE,4.44E-05,Min,MR
+SHELXE,R-work,MAE,1.49E-05,Min,MR
+SHELXE,R-work,RMSE,1.71E-05,Max,MR
+SHELXE,R-work,MAE,-2.18E-05,Max,MR
+SHELXE,R-work,RMSE,0.000318296,Sequence identity,MR
+SHELXE,R-work,MAE,0.000253023,Sequence identity,MR
+SHELXE,R-work,RMSE,0.000213854,RMSD,MR
+SHELXE,R-work,MAE,0.000133804,RMSD,MR
+SHELXE,R-work,RMSE,0.000152278,Skew,MR
+SHELXE,R-work,MAE,0.000129684,Skew,MR
+SHELXE,R-work,RMSE,0.000870391,Resolution,MR
+SHELXE,R-work,MAE,0.0008983,Resolution,MR
+Buccaneer,Completeness,RMSE,0.004688714,Min,MR
+Buccaneer,Completeness,MAE,0.003808827,Min,MR
+Buccaneer,Completeness,RMSE,-0.000254352,Max,MR
+Buccaneer,Completeness,MAE,-0.00059626,Max,MR
+Buccaneer,Completeness,RMSE,0.011163518,Sequence identity,MR
+Buccaneer,Completeness,MAE,0.010046328,Sequence identity,MR
+Buccaneer,Completeness,RMSE,0.000782121,RMSD,MR
+Buccaneer,Completeness,MAE,0.000361627,RMSD,MR
+Buccaneer,Completeness,RMSE,0.004321502,Skew,MR
+Buccaneer,Completeness,MAE,0.003440123,Skew,MR
+Buccaneer,Completeness,RMSE,0.001869345,Resolution,MR
+Buccaneer,Completeness,MAE,0.000930347,Resolution,MR
+Buccaneer,R-work,RMSE,0.001237092,Min,MR
+Buccaneer,R-work,MAE,0.000941444,Min,MR
+Buccaneer,R-work,RMSE,-0.000152843,Max,MR
+Buccaneer,R-work,MAE,-0.000231383,Max,MR
+Buccaneer,R-work,RMSE,0.001379158,Sequence identity,MR
+Buccaneer,R-work,MAE,0.001243088,Sequence identity,MR
+Buccaneer,R-work,RMSE,0.000187212,RMSD,MR
+Buccaneer,R-work,MAE,0.000110209,RMSD,MR
+Buccaneer,R-work,RMSE,0.00113693,Skew,MR
+Buccaneer,R-work,MAE,0.000819451,Skew,MR
+Buccaneer,R-work,RMSE,0.000610099,Resolution,MR
+Buccaneer,R-work,MAE,0.000395793,Resolution,MR
+Buccaneer,R-free,RMSE,0.001254357,Min,MR
+Buccaneer,R-free,MAE,0.000959226,Min,MR
+Buccaneer,R-free,RMSE,-8.18E-05,Max,MR
+Buccaneer,R-free,MAE,-0.000193222,Max,MR
+Buccaneer,R-free,RMSE,0.001492478,Sequence identity,MR
+Buccaneer,R-free,MAE,0.001236762,Sequence identity,MR
+Buccaneer,R-free,RMSE,0.000202987,RMSD,MR
+Buccaneer,R-free,MAE,0.000139209,RMSD,MR
+Buccaneer,R-free,RMSE,0.001536649,Skew,MR
+Buccaneer,R-free,MAE,0.00113214,Skew,MR
+Buccaneer,R-free,RMSE,0.000347822,Resolution,MR
+Buccaneer,R-free,MAE,0.000162548,Resolution,MR
+Phenix AutoBuild,R-work,RMSE,0.001503949,Min,MR
+Phenix AutoBuild,R-work,MAE,0.001442465,Min,MR
+Phenix AutoBuild,R-work,RMSE,0.0003409,Max,MR
+Phenix AutoBuild,R-work,MAE,0.000204198,Max,MR
+Phenix AutoBuild,R-work,RMSE,0.000575568,Sequence identity,MR
+Phenix AutoBuild,R-work,MAE,0.00038572,Sequence identity,MR
+Phenix AutoBuild,R-work,RMSE,0.000385348,RMSD,MR
+Phenix AutoBuild,R-work,MAE,0.000387934,RMSD,MR
+Phenix AutoBuild,R-work,RMSE,0.000572723,Skew,MR
+Phenix AutoBuild,R-work,MAE,0.000587878,Skew,MR
+Phenix AutoBuild,R-work,RMSE,-9.93E-05,Resolution,MR
+Phenix AutoBuild,R-work,MAE,-0.000117994,Resolution,MR
+Phenix AutoBuild,R-free,RMSE,0.001411982,Min,MR
+Phenix AutoBuild,R-free,MAE,0.001305735,Min,MR
+Phenix AutoBuild,R-free,RMSE,0.000256729,Max,MR
+Phenix AutoBuild,R-free,MAE,0.000122517,Max,MR
+Phenix AutoBuild,R-free,RMSE,0.000701884,Sequence identity,MR
+Phenix AutoBuild,R-free,MAE,0.000521903,Sequence identity,MR
+Phenix AutoBuild,R-free,RMSE,0.000299017,RMSD,MR
+Phenix AutoBuild,R-free,MAE,0.000353033,RMSD,MR
+Phenix AutoBuild,R-free,RMSE,0.000786893,Skew,MR
+Phenix AutoBuild,R-free,MAE,0.000796197,Skew,MR
+Phenix AutoBuild,R-free,RMSE,0.000287741,Resolution,MR
+Phenix AutoBuild,R-free,MAE,7.03E-05,Resolution,MR
+Phenix AutoBuild,Completeness,RMSE,0.004546608,Min,MR
+Phenix AutoBuild,Completeness,MAE,0.004360821,Min,MR
+Phenix AutoBuild,Completeness,RMSE,-1.69E-05,Max,MR
+Phenix AutoBuild,Completeness,MAE,-0.000332247,Max,MR
+Phenix AutoBuild,Completeness,RMSE,0.004406782,Sequence identity,MR
+Phenix AutoBuild,Completeness,MAE,0.003529387,Sequence identity,MR
+Phenix AutoBuild,Completeness,RMSE,0.000842263,RMSD,MR
+Phenix AutoBuild,Completeness,MAE,0.000821727,RMSD,MR
+Phenix AutoBuild,Completeness,RMSE,0.001773841,Skew,MR
+Phenix AutoBuild,Completeness,MAE,0.00181306,Skew,MR
+Phenix AutoBuild,Completeness,RMSE,-0.000227253,Resolution,MR
+Phenix AutoBuild,Completeness,MAE,-0.000741834,Resolution,MR
+ARP/wARP,Completeness,RMSE,0.005544033,Min,MR
+ARP/wARP,Completeness,MAE,0.003657528,Min,MR
+ARP/wARP,Completeness,RMSE,-9.33E-05,Max,MR
+ARP/wARP,Completeness,MAE,-0.001187112,Max,MR
+ARP/wARP,Completeness,RMSE,0.004348984,Sequence identity,MR
+ARP/wARP,Completeness,MAE,0.003720561,Sequence identity,MR
+ARP/wARP,Completeness,RMSE,0.000970178,RMSD,MR
+ARP/wARP,Completeness,MAE,0.000167793,RMSD,MR
+ARP/wARP,Completeness,RMSE,0.007063265,Skew,MR
+ARP/wARP,Completeness,MAE,0.006362431,Skew,MR
+ARP/wARP,Completeness,RMSE,0.000827518,Resolution,MR
+ARP/wARP,Completeness,MAE,0.00047038,Resolution,MR
+ARP/wARP,R-work,RMSE,0.001174427,Min,MR
+ARP/wARP,R-work,MAE,0.000979885,Min,MR
+ARP/wARP,R-work,RMSE,0.000102948,Max,MR
+ARP/wARP,R-work,MAE,5.59E-05,Max,MR
+ARP/wARP,R-work,RMSE,0.000146213,Sequence identity,MR
+ARP/wARP,R-work,MAE,0.000175299,Sequence identity,MR
+ARP/wARP,R-work,RMSE,0.000638591,RMSD,MR
+ARP/wARP,R-work,MAE,0.000421875,RMSD,MR
+ARP/wARP,R-work,RMSE,0.000308596,Skew,MR
+ARP/wARP,R-work,MAE,0.000318008,Skew,MR
+ARP/wARP,R-work,RMSE,9.55E-05,Resolution,MR
+ARP/wARP,R-work,MAE,-5.37E-05,Resolution,MR
