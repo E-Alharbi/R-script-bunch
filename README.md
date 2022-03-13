@@ -109,6 +109,35 @@ scale_alpha_manual(values = c(0, 0, 0, 0,1, 1, 0, 0,1, 0, 1, 1,0))
 
 <a href="/Scripts/Script4/Data_example.csv" > - Download the data example </a>
 
+## Script 6 (heatmap)
+<p align="center">
+<img src="Scripts/Script6/Plot_example.png" alt="drawing" width="400"/>
+</p>
+
+- Command line
+```
+Rscript Script6.r -CSV_file Data_example.csv
+```
+- Command line keywords
+
+
+  
+| Keyword | Description | Default value |
+| ------ | ----------- |-----------  |
+| -CSV_file   | Path to CSV file. | Data_example.csv |
+| -Plot_name | Created plot name | Plot.png |
+| -x_label    |  a column name in the CSV file to use for x axis  | Structure_evaluation  |
+| -y_label    |  a column name in the CSV file to use for y axis | Feature |
+| -secondary_y_label_1    |   a column name in the CSV file to use for secondary y axis  | Error_matrix |
+| -secondary_y_label_2    |   a column name in the CSV file to use for second secondary y axis  | Dataset |
+| -secondary_x_label    |   a column name in the CSV file to use for secondary x axis  | Pipeline |
+| -fill_value    |   a column name in the CSV file to use to fill in the heatmap cell  | Difference_from_base_model |
+| -font_size    |   x and y axis labels fonts size  | 3 |
+| -round_places    |   number of places to use when round the heatmap values  | 5 |
+
+<a href="/Scripts/Script6/Script6.r" > - Download the script </a>
+
+<a href="/Scripts/Script6/Data_example.csv" > - Download the data example </a>
 
 
 ## Citing
