@@ -111,7 +111,7 @@ scale_alpha_manual(values = c(0, 0, 0, 0,1, 1, 0, 0,1, 0, 1, 1,0))
 
 ## Script 6 (heatmap)
 <p align="center">
-<img src="Scripts/Script6/Plot_example.png" alt="drawing" width="400"/>
+<img src="Scripts/Script6/Plot_example.png" alt="drawing" width="800"/>
 </p>
 
 - Command line
