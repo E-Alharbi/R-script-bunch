@@ -139,6 +139,34 @@ Rscript Script6.r -CSV_file Data_example.csv
 
 <a href="/Scripts/Script6/Data_example.csv" > - Download the data example </a>
 
+## Script 7 (box plot grid)
+<p align="center">
+<img src="Scripts/Script7/Plot_example.png" alt="drawing" width="800"/>
+</p>
+
+- Command line
+```
+Rscript Script7.r -CSV_file Data_example.csv
+```
+- Command line keywords
+
+
+  
+| Keyword | Description | Default value |
+| ------ | ----------- |-----------  |
+| -CSV_file   | Path to CSV file. | Data_example.csv |
+| -Plot_name | Created plot name | Plot.png |
+| -x_label    |  a column name in the CSV file to use for x axis  | Pipeline  |
+| -y_label    |  a column name in the CSV file to use for y axis | Difference |
+| -secondary_y_label    |   a column name in the CSV file to use for secondary y axis  | Evaluation_measure |
+| -secondary_x_label    |   a column name in the CSV file to use for secondary x axis  | dataset |
+| -group_data    |   a column name in the CSV file to use to fill in the heatmap cell  | predictive_model |
+| -font_size    |   x and y axis labels fonts size  | 14 |
+
+
+<a href="/Scripts/Script7/Script7.r" > - Download the script </a>
+
+<a href="/Scripts/Script7/Data_example.csv" > - Download the data example </a>
 
 ## Citing
 ```
