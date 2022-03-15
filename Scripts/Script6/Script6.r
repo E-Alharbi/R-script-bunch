@@ -1,15 +1,6 @@
-
-#arg1 NonDuplicatedPubidNewRESOLVE.csv
-#arg2 journalsbyPipelines.csv
-#arg3 PublicationYearByPipeline.csv
-
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
-dir.create("./Plots")
 
-
-
-#!/usr/bin/env Rscript
 
 ############################################
 #         Download utilities.r             #
