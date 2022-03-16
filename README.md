@@ -168,6 +168,33 @@ Rscript Script7.r -CSV_file Data_example.csv
 
 <a href="/Scripts/Script7/Data_example.csv" > - Download the data example </a>
 
+
+## Script 8 (bar with line plot)
+<p align="center">
+<img src="Scripts/Script8/Plot_example.png" alt="drawing" width="800"/>
+</p>
+
+- Command line
+```
+Rscript Script8.r -CSV_file Data_example.csv
+```
+- Command line keywords
+
+
+  
+| Keyword | Description | Default value |
+| ------ | ----------- |-----------  |
+| -CSV_file   | Path to CSV file. | Data_example.csv |
+| -Plot_name | Created plot name | Plot.png |
+| -x_label    |  a column name in the CSV file to use for x axis  | Loss_value  |
+| -group_data    |   a column name in the CSV file to use to fill in the heatmap cell  | Structure_evaluation |
+| -font_size    |   x and y axis labels fonts size  | 8 |
+
+
+<a href="/Scripts/Script8/Script8.r" > - Download the script </a>
+
+<a href="/Scripts/Script8/Data_example.csv" > - Download the data example </a>
+
 ## Citing
 ```
 @software{A_bunch_of_R_scripts,
