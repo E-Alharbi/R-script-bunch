@@ -171,7 +171,7 @@ Rscript Script7.r -CSV_file Data_example.csv
 
 ## Script 8 (bar with line plot)
 <p align="center">
-<img src="Scripts/Script8/Plot_example.png" alt="drawing" width="800"/>
+<img src="Scripts/Script8/Plot_example.png" alt="drawing" width="700"  />
 </p>
 
 - Command line
