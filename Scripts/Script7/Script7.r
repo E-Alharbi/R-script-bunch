@@ -10,7 +10,7 @@ utilities_file="utilities.r"
 if(!file.exists(utilities_file)){
     print (paste0(utilities_file," not found. We will download from rscript-bunch repository.
 "))
-download.file("https://raw.githubusercontent.com/E-Alharbi/rscript-bunch/main/utilities.r", utilities_file,method='curl')
+download.file("https://raw.githubusercontent.com/E-Alharbi/R-script-bunch/main/utilities.r", utilities_file,method='curl')
 
 }
 
